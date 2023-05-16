@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:M19.xcodeproj">
+      location = "group:/Users/filinintend/Desktop/iOS_lvl1/iOS_lvl1/M19Homework/M19/Application-to-submit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -21,7 +21,7 @@
 		0F52B724DD89738D1F193CE9 /* Pods_M19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		158532AA58E79078199C4AAF /* Pods-M19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M19.release.xcconfig"; path = "Target Support Files/Pods-M19/Pods-M19.release.xcconfig"; sourceTree = "<group>"; };
 		61E1072923F6E09BFE7F2C59 /* Pods-M19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M19.debug.xcconfig"; path = "Target Support Files/Pods-M19/Pods-M19.debug.xcconfig"; sourceTree = "<group>"; };
-		9E0D305129790FD000D96A92 /* M19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M19.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0D305129790FD000D96A92 /* Application-to-submit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Application-to-submit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0D305429790FD000D96A92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E0D305629790FD000D96A92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E0D305829790FD000D96A92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		9E0D304829790FD000D96A92 = {
 			isa = PBXGroup;
 			children = (
-				9E0D305329790FD000D96A92 /* M19 */,
+				9E0D305329790FD000D96A92 /* Application-to-submit */,
 				9E0D305229790FD000D96A92 /* Products */,
 				AA08E5D01E6DB8E591E8E1F2 /* Pods */,
 				CAD7E803C8D1A6DBCD1F6346 /* Frameworks */,
@@ -57,12 +57,12 @@
 		9E0D305229790FD000D96A92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E0D305129790FD000D96A92 /* M19.app */,
+				9E0D305129790FD000D96A92 /* Application-to-submit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E0D305329790FD000D96A92 /* M19 */ = {
+		9E0D305329790FD000D96A92 /* Application-to-submit */ = {
 			isa = PBXGroup;
 			children = (
 				9E0D305429790FD000D96A92 /* AppDelegate.swift */,
@@ -74,7 +74,7 @@
 				9E0D305F29790FD600D96A92 /* LaunchScreen.storyboard */,
 				9E0D306229790FD600D96A92 /* Info.plist */,
 			);
-			path = M19;
+			path = "Application-to-submit";
 			sourceTree = "<group>";
 		};
 		AA08E5D01E6DB8E591E8E1F2 /* Pods */ = {
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E0D305029790FD000D96A92 /* M19 */ = {
+		9E0D305029790FD000D96A92 /* Application-to-submit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E0D306529790FD600D96A92 /* Build configuration list for PBXNativeTarget "M19" */;
+			buildConfigurationList = 9E0D306529790FD600D96A92 /* Build configuration list for PBXNativeTarget "Application-to-submit" */;
 			buildPhases = (
 				5E7DD05F23A8A6FB5F2C9FD9 /* [CP] Check Pods Manifest.lock */,
 				9E0D304D29790FD000D96A92 /* Sources */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = M19;
+			name = "Application-to-submit";
 			productName = M19;
-			productReference = 9E0D305129790FD000D96A92 /* M19.app */;
+			productReference = 9E0D305129790FD000D96A92 /* Application-to-submit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E0D304C29790FD000D96A92 /* Build configuration list for PBXProject "M19" */;
+			buildConfigurationList = 9E0D304C29790FD000D96A92 /* Build configuration list for PBXProject "Application-to-submit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E0D305029790FD000D96A92 /* M19 */,
+				9E0D305029790FD000D96A92 /* Application-to-submit */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = M19/Info.plist;
+				INFOPLIST_FILE = "Application-to-submit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -372,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YuriyGoga.M19;
+				PRODUCT_BUNDLE_IDENTIFIER = "YuriyGoga.Application-to-submit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,7 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = M19/Info.plist;
+				INFOPLIST_FILE = "Application-to-submit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -400,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = YuriyGoga.M19;
+				PRODUCT_BUNDLE_IDENTIFIER = "YuriyGoga.Application-to-submit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E0D304C29790FD000D96A92 /* Build configuration list for PBXProject "M19" */ = {
+		9E0D304C29790FD000D96A92 /* Build configuration list for PBXProject "Application-to-submit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E0D306329790FD600D96A92 /* Debug */,
@@ -420,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E0D306529790FD600D96A92 /* Build configuration list for PBXNativeTarget "M19" */ = {
+		9E0D306529790FD600D96A92 /* Build configuration list for PBXNativeTarget "Application-to-submit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E0D306629790FD600D96A92 /* Debug */,
